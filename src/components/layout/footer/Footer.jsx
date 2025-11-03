@@ -48,7 +48,7 @@ export default function Footer({ fontFamily }) {
         <a href="https://geradot.vercel.app/" target="_blank" className="underline underline-offset-4 hover:text-red-800 transition-colors duration-300">
          Geradot 
         </a>{" "}
-        © {currentYear === startYear ? currentYear : `${startYear}—${currentYear}`}
+        © {currentYear === startYear ? currentYear : `${startYear}–${currentYear}`}
       </p>
     </footer>
   );
